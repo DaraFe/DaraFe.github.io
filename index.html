@@ -1,0 +1,190 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tvoja Stranica</title>
+  <style type="text/css">
+    body {
+	background-color: #1E419A;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+	#slika2	{
+	height: 200px;
+	width: 201px;
+	float: left;
+	position: relative;
+	z-index: 1;
+	}
+	#header
+	{
+		z-index: 0;
+		position: absolute;
+	}
+	header	{
+		background-image: url('header.png');
+      background-size: cover;
+	}
+	a	{
+		font-size: 20;
+		text-decoration: none;
+		color: white;
+		font-family: Lucida Console;
+	}
+    header, main, aside, footer {
+      padding: 20px;
+      border: 1px solid #ddd;
+      margin: 10px;
+    }
+	#divv
+	{
+		display: flex;
+	}
+	nav a	{
+		padding: 20px;
+	}
+
+    header, nav, main, aside {
+      background-color: #f2f2f2;
+    }
+
+    footer {
+      background-color: #0E134F ;
+      color: white;
+      margin-top: auto; 
+    }
+	main	{
+	background-color: #DCEFFF;
+	}
+	
+    nav {
+	
+	background-color: #006ABD  ;
+      border: 1px solid #ddd;
+      margin: 10px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    main {
+      flex: 3;
+    }
+
+    aside {
+		background-color: #DCEFFF;
+      flex: 1;
+      margin-left: 20px; 
+    }
+	h2	{
+		text-decoration: underline;
+	}
+	#slika4
+	{
+	width: 100%;
+	height: auto;
+	}
+	#podaci{
+		float: right;
+	}
+	#prava{
+		float:left;
+	}
+	#slika5	{
+		width: 100%;
+		height: auto;
+	}
+	#gif{
+		width: 350px;
+		height: 200px;
+		float: right;
+	}
+	p{
+		font-family: Monaco;
+		font-size: 19;
+	}
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+	  #divv
+	  {
+		display: block;
+	  }
+  </style>
+</head>
+<body>
+
+  <header>
+  <a href="https://www.mandeks.ba/"><img src="slika22.jpg" id="slika2"></a>
+	<img src="gif.gif"id ="gif">
+  </header>
+
+  <nav>
+    <a href="https://www.mandeks.ba/#about">O nama</a>
+    <a href="https://www.mandeks.ba/#work">Proizvodi</a>
+    <a href="https://www.mandeks.ba/#contact">Kontakt</a>
+	<a href="https://www.mandeks.ba/novosti.php">Novosti</a>
+	<a href="#">Sljedeća zadaća</a>
+  </nav>
+
+  <div id="divv">
+    <main>
+      <h2>Misija</h2>
+      <p>Misija poslovanja TEM Mandeks d.o.o. je osigurati najvise standarde 
+		kvalitete u preradi plastienih masa i proizvodnji elektroinstalacijskog materijala,
+		koristei pri tome suvremene tehnologije i znanje kvalificiranih uposlenika, kao
+		i distribucija proizvoda uz potpuno zadovoljstvo svih sudionika distributivnog lanca.</p>
+		<br><br>
+		<h2>Vizija</h2>
+		<p>Vizija TEM Mandeks do.o. je biti regionalni lider u podruju
+			vlastitog djelovanja i izvozno orijentirana kompanija. To zelimo ostvariti kroz ulaganje u
+			nove proivodne tehnologije i Sirenje proizvodnog asortimana, koristeci pri
+			tome visoke standarde kvalitete i zastite okolisa, a u isto vrijeme biti 
+			pozeljan poslodavac i pouzdan poslovni partner</p>
+		<br><br>
+		<h2>Kvaliteta</h2>
+		<p>Od 2004. godine posjedujemo certitikat ISO 9001 - sustav upravljanja kvalitetom,
+			a od 2010. god i ISO 14001 - sustav zastite okolisa. Trenutno je TEM Mandeks certificiran po
+			normama ISO 9001:2008 i ISO 14001:2004. Kako bi smo poboljsali svoju kvalitetu radimo
+			po normi ISO 2859-1 - kontrola kvalitete metodom uzorkovanja.</p>
+		<br><br>
+		<h2>Politika zaštite okoliša</h2>
+		<p>Uvodenje sustava upravijanja zastitom okolisa sukladno normi ISO
+			14001:2015 obvezuje TEM Mandeks do.o. na stalni nadzor i neprekidno poboljsanje
+			utjecaja na okolis tijekom proizvodnje sklopki i utienica i ostalog
+			elektroinstalacijskog materijala, razdjeinih ormara i proizvoda od plasticnih
+			masa.</p>
+    </main>
+
+    <aside>
+      <p>Društvo TEM Mandeks d.o.o. od svog osnivanja
+		bilježi kontinuirani razvoj, čemu su pridonijele
+		značajne investicije u nabavku i implementaciju
+		suvremenih tehnologija u proizvodnji, u razvoj
+		novih proizvoda i proizvodnih grupa, te obuku i
+		specijalizaciju postojećih i novih kadrova. U istom
+		pravcu planiramo nastaviti i u budućnosti, a sve sa 
+		ciljem zadržavanja pozitivnih trendova po pitanju 
+		proširenja i osuvremenjena proizvodnih kapaciteta,
+		konstantnog rasta prodaje i dobiti, kao i osvajanja
+		novih izvoznih tržišta.</p>
+		<img src="slika4.jpg" id="slika4">
+		<br><br>
+		<img src="slika5.png" id="slika5">
+    </aside>
+  </div>
+
+  <footer>
+    <p id="prava">&copy;Sva prava pridržana.</p>
+	<p id="podaci">Nikola Zeljko 2. godina računarstva 2199/RR <br><br>nikola.zeljko@sum.ba</p>
+	
+  </footer>
+
+</body>
+</html>
